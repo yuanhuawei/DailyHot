@@ -8,6 +8,15 @@ const routes = [
     },
     component: () => import("@/views/Home.vue"),
   },
+  // 微信新闻
+  {
+    path: "/news",
+    name: "news",
+    meta: {
+      title: "首页",
+    },
+    component: () => import("@/views/News.vue"),
+  },
   // 新闻列表
   {
     path: "/list",
